@@ -1,0 +1,26 @@
+.mainBody{
+	margin-top: 0;
+	padding: 0.5em;
+	background-color: green;	
+}
+
+.idDiv {
+	background-color: #3aae2a;
+	padding: 0.5em;
+	color: white;
+	border-radius: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+
+h4{
+
+	margin-top: 0em;
+	margin-bottom: 0.3em;
+}
+
+body{
+	background-color: lightgray;
+	margin: 0;
+	padding: 0;
+}
