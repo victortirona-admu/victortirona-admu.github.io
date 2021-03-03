@@ -1,26 +1,54 @@
-.mainBody{
-	margin-top: 0;
-	padding: 0.5em;
-	background-color: green;	
-}
-
-.idDiv {
-	background-color: #3aae2a;
-	padding: 0.5em;
-	color: white;
-	border-radius: 0.5em;
-	margin-bottom: 0.5em;
-}
-
-
-h4{
-
-	margin-top: 0em;
-	margin-bottom: 0.3em;
-}
-
-body{
-	background-color: lightgray;
-	margin: 0;
+*{
 	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+	width: 80%;
+	height: 100px;
+	position: relative;
+	margin: 100px auto;
+}
+.btn-box{
+	display: flex;
+	border-bottom: 1px solid #ccc;
+}
+
+.btn-box button{
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	margin-right: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.btn-box .fa{ 
+	margin-right: 20px;
+}
+
+.btn-box button:hover{
+	color: #ff7846;
+}
+
+.content-right img{
+	width: 25%;
+}
+
+.content{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin: 5% auto;
+}
+
+.content-left{
+	flex-basis: 50%;
+}
+
+.content-right{
+	flex-basis: 50%;
 }
