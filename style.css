@@ -1,54 +1,147 @@
 *{
-	padding: 0;
 	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
 
-.hero{
-	width: 80%;
-	height: 100px;
+a,a:hover{
+	text-decoration: none;
+}
+
+
+ul{
+	list-style:none;
+}
+
+.header{
 	position: relative;
-	margin: 100px auto;
+	width: 100%;
+	height: 100vh;
+	background-color: #556B2E;
 }
-.btn-box{
+
+/*Navigation Bar*/
+.header .navBar{
+	width: 100%;
+	height: 80px;
+	position: sticky;
+	top: 0px;
 	display: flex;
-	border-bottom: 1px solid #ccc;
+	align-items: center;
+	padding-top: 20px;
+	background-color:#35431C;
 }
 
-.btn-box button{
-	background: transparent;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	padding: 14px 16px;
-	margin-right: 50px;
+/*Top left logo*/
+.header .navBar .logo{
+	display: inline;
+	position: relative;
+	width: 15%;
+}
+
+.header .navBar .logo a{
+	color: #fff;
+	font-size: 25px;
+	margin-left: 10%
+}
+
+/*Menu tabs*/
+.header .navBar .menu{
+	display: inline;
+	position: relative;
+	width: 55%;
+}
+
+.header .navBar .menu ul li{
+	display: inline-block;
+	margin-right: 5%;
+	align-items: center;
+}
+
+.header .navBar .menu ul li a{
+	color: #fff;
+	font-size: 17px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	transition: all 0.3s;
+}
+
+.header .navBar .menu ul li a:hover{
+	color: #FADA5F;
+}
+
+/*Contact information buttons*/
+.header .contact-info{
+	width: 30%;
+}
+
+.header .contact-info ul li{
+	display: inline-block;
+}
+
+.header .contact-info ul li a{
+	color: #fff;
+	font-size: 15px;
+	transition: all 0.3s;
+}
+
+.header .contact-info ul li a:hover{
+	color: #FADA5F;
+}
+
+.header .contact-info ul li a.sep{
+	margin: 0 20%;
+	opacity: 0.3;
+}
+
+/*In page content*/
+
+.header .banner{
+	position: absolute;
+	display: inline;
+	top: 30%;
+	left: 10%;
+	width: 90%;
 	font-size: 20px;
-	font-weight: bold;
+	color: #FDFD95;
+}
+.header .banner .app-text span{
+	color: #FADA5F;
 }
 
-.btn-box .fa{ 
-	margin-right: 20px;
+.header .banner .resumeintro ul li a{
+	color: #fff;
+	font-size: 100%; /*font size percentage is relative to the parent so this is 70% of the banner text size*/
+	font-weight:bold;
 }
 
-.btn-box button:hover{
-	color: #ff7846;
+.header .banner .resumeintro ul li a:hover{
+	color: #FADA5F;
 }
 
-.content-right img{
+.header .banner .photosofme img{
+	position: absolute;
+	top: 0;
+	display: inline-block;
 	width: 25%;
 }
 
-.content{
-	display: flex;
-	justify-content: center;
-	text-align: center;
-	margin: 5% auto;
+.header .banner .photosofme #GradPhoto{
+	left: 50%;
+	border-radius:20%;
 }
 
-.content-left{
-	flex-basis: 50%;
+.header .banner .photosofme #Barong{
+	left: 63%;
+	border-radius:20%;
+	transform: rotate(15deg);
+	width: 15%;
 }
 
-.content-right{
-	flex-basis: 50%;
+.header .banner .photosofme #CasualPhoto{
+	left: 48%;
+	border-radius:40%;
+	transform: rotate(-10deg);
+	width: 15%;
 }
