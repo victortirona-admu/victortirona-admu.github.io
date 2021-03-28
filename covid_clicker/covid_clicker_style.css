@@ -1,0 +1,33 @@
+body{
+	font-family: 'Poppins', sans-serif;
+    background-color: #35431C;
+}
+
+.area_header{
+    background-color: #35431C;
+    color: white;
+}
+
+.area_body{
+    background-color: #35431C;
+    display: grid;
+    grid-template-columns: 300px auto auto;
+}
+
+
+.area_clicker{
+    text-align: center;
+    background-color: #556B2E;
+    border-radius:20px;
+}
+
+.area_owned{
+    text-align: center;
+    border-radius:20px;
+}
+
+.area_store{
+    background-color:#FADA5F;
+    text-align: center;
+    border-radius:20px;
+}

@@ -3,6 +3,7 @@
   <head>
     <title>Tor Tirona Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+	<script src="script.js" defer></script> <!--Defer means the script will load only AFTER the HTML fully loads-->
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> <!--I think this adds the Font Awesome Boot Strap library-->
 	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> <!--adds google fonts to our website-->
 <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.-->
@@ -19,7 +20,7 @@
 					<li><a href="#">Home</a></li>
 					<li><a href="#">About</a></li>
 					<li><a href="#">Resume</a></li>
-					<li><a href="#">Coding Projects</a></li>
+					<li><a href="covid_clicker/covid_clicker.html">Covid Clicker</a></li>
 					<li><a href="#">Contact</a></li>
 				</ul>
 			</div>
@@ -31,7 +32,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="banner">
+		<div class="banner" >
 			<div class = "app-text">
 				<h1>Hi! I'm <span>Tor</span>, I built<br> this website.</span></h1>
 			</div>
@@ -51,7 +52,21 @@
 				</ul>
 			</div>
 		</div>
-
+		<!---Part of the WebDev Simplified Tutorial for tabs https://www.youtube.com/watch?v=5L6h_MrNvsk&list=PLoPQGYXGOGlANNo12R3mwh6u_tho1B5MU&index=10&t=472s-->
+		<div class="tab-content">
+			<div id="home" data-tab-content>
+				<h1>Home</h1>
+				<p>This is the home</p>
+			</div>
+			<div id="about" data-tab-content>
+				<h1>Pricing</h1>
+				<p>This is the home</p>
+			</div>
+			<div id="resume" data-tab-content>
+				<h1>About</h1>
+				<p>This is the home</p>
+			</div>
+		</div>
 	</div>
 
 </body>

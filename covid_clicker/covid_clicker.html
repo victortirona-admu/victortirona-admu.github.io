@@ -1,0 +1,69 @@
+<!--
+    TO ADD:
+        1. Disappearing text graphics for +1 or buttons clicks
+        2. Error message for cannot buy
+        3. Find a way to automatically load all owned items?
+        4. Add graphics for everything?
+        5. Maybe we can turn the game around? The cases are growing and it's our job to stop it?
+            - What if the "purchases" have a duration. An "ECQ" purchase lower the rate but it will cost you money.
+        6. The cost can go up
+        7. Save feature?
+        8. Story Line?
+
+-->
+
+
+
+<!DOCTYPE html>
+<html>
+
+<title>Covid Clicker!</title>
+<head>
+    <script src="covid_clicker_script.js" defer></script>
+    <link rel="stylesheet" href="covid_clicker_style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> <!--I think this adds the Font Awesome Boot Strap library-->
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body onload="loadInitialVar()">
+    <div class= "area_header">
+        <h1>Infect as much people as you can!</h1>
+    </div>
+    <div class = "area_body">
+        <div class = "area_clicker">
+            <h1># of Infected: <span id="num_infected"></span></h1>
+            <h5>Get more infected by clicking the button below!</h5>
+            <h4># Infected/second: <span id="num_rate"></span></h4>
+            <button type="button" id="button_clicker">Covid Clicker</button>
+        </div>
+        <div class = "area_owned">
+            <h2>Owned items</h1>
+        </div>
+        <div class = "area_store">
+            <h2>Owned Items:</h1>
+            <ul>
+                <li>
+                    <button type="button" id="button_purchase_antiMasker">
+                    Buy Anti Masker</button> Anti Maskers (cost: <span id="cost_antiMasker"></span>): <span id="num_antiMasker_owned"></span>
+                </li>
+                <li>
+                    <button type="button" id="button_purchase_badEstablishment">
+                    Buy Establishment</button> Bad Establishment (cost: <span id="cost_badEstablishment"></span>): <span id="num_badEstablishment_owned"></span>
+                </li>
+                <li>
+                    <button type="button" id="button_purchase_badLGU">
+                    Buy LGU</button> Bad Local Government Unit (cost: <span id="cost_badLGU"></span>): <span id="num_badLGU_owned"></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+<!--Person not wearing a mask!
+    Establishments not enforcing proper social distancing rules 
+    Posting on social media about covid vaccines not being safe
+    
+-->

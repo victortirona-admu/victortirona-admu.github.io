@@ -145,3 +145,11 @@ ul{
 	transform: rotate(-10deg);
 	width: 15%;
 }
+
+[data-tab-content]{
+	display: none;
+}
+
+.active[data-tab-content]{
+	display: block;
+}
