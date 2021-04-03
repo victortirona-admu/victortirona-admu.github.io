@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+.hero{
+	vertical-align: top;
+}
+
+.left-profile{
+	position: relative;
+	background-color: black;
+	width: 40vw;
+	height: 100vh;
+	display: inline-block;
+	background-image: linear-gradient(white,gray);
+}
+
+.right-content{
+	position: relative;
+	background-color: green;
+	width: 58vw;
+	height: 100vh;
+	display: inline-block;
+	background-image:url('/resources/greenbg2.jpg');
+}
