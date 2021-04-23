@@ -4,86 +4,209 @@
     <title>Tor Tirona Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css">
 	<script src="script.js" defer></script> <!--Defer means the script will load only AFTER the HTML fully loads-->
+	<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+	<script src="typeit.min.js"></script>
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> <!--I think this adds the Font Awesome Boot Strap library-->
 	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> <!--adds google fonts to our website-->
 <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.-->
 </head>
 
+<!--
+	To do:
+	1. Finalize all the content
+	2. Apply for white cloak, sakay and others
+	
+	
+	1. Add text bg shadow
+	2. Lower resolution of sample images so they load faster
+	3. Redesign resume area on adobe XD
+-->
 <body>
-	<div class= "hero">
-		<div class = "left-profile">
-			<div class = "profile-picture">
-				<img src = "resources/Memoji.PNG" alt = "Tor Tirona's Photo" width = "60%">
-			</div>
-			<div class = "left-intro">
-				<p>Hi, I'm Tor Tirona</p>
-				<p><span>Organizing teams to </br>make cool tech!</span></p>
-				<div class = "left-text-favorite">
-					<p>Check out my favorite projects:</p>
-				</div>
-			</div>
-			<div class = "left-gallery">
-				<a href = "#project_1" id = "project_1"><img src = "resources/stock_photo_1.jpg" width = "30%"></a>
-				<a href = "#project_2" id = "project_2"><img src = "resources/stock_photo_2.jpg" width = "30%"></a>
-				<a href = "#project_3" id = "project_3"><img src = "resources/stock_photo_3.jpg" width = "30%"></a>
-			</div>
-			
-
+	<section class= "hero-1">
+		<div class = "logo">
+			<a href="">Tor Tirona</a>
 		</div>
-		<div class = "right-content">
-			<div class = "navBar">
-				<a href="#">Home</a>
-				<a href="#">About</a>
-				<a href="#">Resume</a>
-				<a href="#">Coding Projects</a>
-				<a href="#">About</a>
-			</div>
+		<div class = "navBar">
+			<a href="#aboutme">About Me</a>
+			<a href="#workexperience">Work Experience</a>
+			<a href="#favoriteprojects">Favorite Projects</a>
+			<a href="#favoritequotes">Favorite Quotes</a>
+			<a href="#">Contact</a>
+			<a href="./pages/1/ideas.html">Ideas</a>
+		</div>
+		<div class = h1-content>
+			<span>Tor can <span class="type-effect">organize teams</span></span>
+			<p>I'm looking for something to create. I'm an engineer focused on delivering truly useful products with proven communication, organization, and product specification skills.</p>
+			<a href="#"></br>Learn more about me. I don't like how I can only see one thing at a time per page</a>
+		</div>
+	</section>
+	<section class= "about-me" id = "aboutme">
+		<div class = "mac-window">
 			<div class = "right-titlebar">
 				<div class = circles>
 					<div class = circle1></div>
 					<div class = circle2></div>
 					<div class = circle3></div>
 				</div>
-				<div class = textbox-title>Tor at a quick glance</div>
 			</div>
 			<div class = "right-window">
-				Work Experience
-				<div class = work-experience>
-					<div class = work1>
-						Product Analyst
+				<div class = about-me-content-title>
+					<p><span>About me</span></p>
+				</div>
+				<div class = about-me-content>
+					<p>You know those kids who grew up mixing powder, soap, and water, hoping it would explode? Yeah. That's me. I'm an Electronics Engineer now.</p>
+					<p>Hey! I'm Tor. I'm on a lifelong journey to find new things to create. May it be woodworking, portrait sketching, electronics, computer vision, or web development, I'm your guy!</p>
+					<p>I've had the privilege of working at Huawei, Energy Laboratory, and a start-up. My main focus these days is ...</p>
+				</div>
+				<div class = about-me-content-title>
+					<p><span>Why you shouldn't hire me</span></p>
+				</div>
+				<div class = about-me-content>
+					<p>Please hire me I want to be worth something</p>
+					<p>I can be stubborn</p>
+				</div>
+			</div>
+		</div>
+		<div class = "profile-picture">
+			<img src="/resources/CasualPhotoTrans.png">
+		</div>
+	</section>
+	<section class= "work-experience" id = "workexperience">
+		<div class = "h3-content">
+			<p>Where I've Worked</p>
+		</div>
+		<div class = "h3-left-content">
+			<div class = "right-titlebar">
+				<div class = circles>
+					<div class = circle1></div>
+					<div class = circle2></div>
+					<div class = circle3></div>
+				</div>
+			</div>
+			<div class = "right-window-black">
+				<div class = "WE-content">
+					<div class = "WE-header">
+						<p>Country Product Analyst <span>@ Transportify</span></p>
 					</div>
-					<div class = work2>
-						Machine Learing Research Intern
+					<div class = "WE-date">
+						<p>August 2020 - August 2021</p>
+					</div>
+					<div class = "WE-line"></div>
+					<div class = "WE-body">
+						<ul>
+							<li>Communicated with executives to write __ Product Specifications</li>
+							<li>Worked with our CTO to standardize regional product processes</li>
+							<li>Coordinated with engineering team to plan the release, document, and testing of weekly releases.</li>
+						</ul>
 					</div>
 				</div>
-				Programming Knowledge
-				<div class = programming-knowledge>
-					<div class = programming-icons>
-
+			</div>
+		</div>
+		<div class = "h3-right-content">
+			<div class = "right-titlebar">
+				<div class = circles>
+					<div class = circle1></div>
+					<div class = circle2></div>
+					<div class = circle3></div>
+				</div>
+			</div>
+			<div class = "right-window-black">
+				<div class = "WE-content">
+					<div class = "WE-header">
+						<p>Country Product Analyst <span>@ Transportify</span></p>
+					</div>
+					<div class = "WE-date">
+						<p>August 2020 - August 2021</p>
+					</div>
+					<div class = "WE-line"></div>
+					<div class = "WE-body">
+						<ul>
+							<li>Communicated with executives to write __ Product Specifications</li>
+							<li>Worked with our CTO to standardize regional product processes</li>
+							<li>Coordinated with engineering team to plan the release, document, and testing of weekly releases.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class = "favorite-projects" id = "favoriteprojects">
+		<div class = "FP-header">
+			<p>My Favorite Projects</p>
+		</div>
+		<!---First Project-->
+		<div class = "project1">
+			<div class = "right-titlebar">
+				<div class = circles>
+					<div class = circle1></div>
+					<div class = circle2></div>
+					<div class = circle3></div>
+				</div>
+			</div>
+			<div class = "FP-window">
+				<div class = "right-window-black">
+					<div class = "WE-content">
+						<div class = "WE-header">
+							<p>Definition of "Toxic Masculinity" on Twitter</p>
+						</div>
+						<div class = "WE-line"></div>
+						<div class = "FP-body">
+							<p>In this project, I scraped, cleaned, and analyzed over 7,000 tweets over 3 months about Toxic Masculinity. The goal was to analyze tweets to understand how Twitter users make use of "Toxic Masculinity."</p>
+							<p>In the end, the most common words associated with it were "white", "fragile", "women" </p>
+							<p>See the whole presentation, <a href=#>here</a></p>
+						</div>
+						<div class = "tag-block">
+							<div class = "tag">R</div>
+							<div class = "tag">RStudio</div>
+							<div class = "tag">Bigram Analysis</div>
+							<div class = "tag">IFTTT Data Scraping</div>
+						</div>
+					</div>
+				</div>
+				<div class = "FP-img">
+					<img src = "./resources/stock_photo_1.jpg">
+				</div>
+			</div>
+		</div>
+		
+		<!---Second Project-->
+		<div class = "project2">
+			<div class = "right-titlebar">
+				<div class = circles>
+					<div class = circle1></div>
+					<div class = circle2></div>
+					<div class = circle3></div>
+				</div>
+			</div>
+			<div class = "FP-window">
+				<div class = "FP-img">
+					<img src = "./resources/stock_photo_1.jpg">
+				</div>
+				<div class = "right-window-black">
+					<div class = "WE-content">
+						<div class = "WE-header">
+							<p>Is this parking lot is occupied?</p>
+						</div>
+						<div class = "WE-line"></div>
+						<div class = "FP-body">
+							<p>In this project, I scraped, cleaned, and analyzed over 7,000 tweets over 3 months about Toxic Masculinity. The goal was to analyze tweets to understand how Twitter users make use of "Toxic Masculinity."</p>
+							<p>In the end, the most common words associated with it were "white", "fragile", "women" </p>
+							<p>See the whole presentation, <a href=#>here</a></p>
+						</div>
+						<div class = "tag-block">
+							<div class = "tag">Computer Vision</div>
+							<div class = "tag">C++</div>
+							<div class = "tag">Digital Signal Processing</div>
+						</div>
 					</div>
 				</div>
 				
-				<div class = certificates-awards>
-					Certificates and awards
-					<ul>
-						<li>Item 1</li>
-						<li>Item 1</li>
-						<li>Item 1</li>
-						<li>Item 1</li>
-					</ul>
-				</div>
-				<div class = right-column>
-					Certificates and awards
-					<ul>
-						<li>Item 1</li>
-						<li>Item 1</li>
-						<li>Item 1</li>
-						<li>Item 1</li>
-					</ul>
-				</div>
-				Click here to see my full resume!
 			</div>
 		</div>
-	</div>
+		
+		<!---Third Project-->
+	</section>
+	<section class = "favorite-quotes" id = "favoritequotes"></section>
+
 </body>
 </html>
