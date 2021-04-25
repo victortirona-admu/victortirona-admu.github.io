@@ -253,6 +253,8 @@ a:hover{
 
 .WE-header span{
 	color: #87B246;
+	font-weight: 500;
+	font-size: 20px;
 }
 
 .WE-date{
@@ -354,15 +356,14 @@ a:hover{
 	border-radius: 7px;
 }
 
-.project2 .right-titlebar{
+/*.project2 .right-titlebar{
 	float: right;
 	margin-right: 30px;
 }
 .project2 .FP-window{
 	float: right;
-	
 	margin-right: 30px;
-}
+}*/
 
 
 /*-------------------------------------------------------------------------------------------------
