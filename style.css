@@ -89,31 +89,38 @@ a:hover{
 	animation: change 15s ease-in-out infinite;
 }
 
+.section-header{
+	padding-top: 20px;
+	font-size: 40px;
+	font-weight: 800;
+}
+
+.section-header p{
+	margin-left: 30px;
+}
+
+.about-me .section-header{
+	color: #F0F0F0;
+}
+
 .mac-window{
 	vertical-align: top;
+	margin-top: 30px;
 	width: 60vw;
-	height: 93.5%;
+	height: 85%;
+	margin-left:30px;
 	display: inline-block;
-	padding-top: 3%;
 }
 
 .right-titlebar{
 	background: linear-gradient(#707070,#383838);
 	height: 30px;
 	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
 	border-radius: 7px 7px 0px 0px;
 }
 .right-titlebar p{
 	left: 75%; 
 	position:fixed;
-}
-
-.textbox-title{
-	text-align: center;
-	color: #F9F9F9;
-	font-size: 20px;
 }
 
 .circles{
@@ -144,12 +151,35 @@ a:hover{
 	background-color: #62C655;
 }
 
+.about-me-content{
+	margin-left: 20px;
+	margin-right: 20px;
+	text-indent: 30px;
+	list-style-position: inside;
+}
+
+.about-me-content p{
+	text-align: justify;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.about-me-content ul{
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.about-me-content-title{
+	margin-left: 20px;
+	font-size: 30px;
+	font-weight: 800;
+	text-indent: 0px;
+}
+
 .right-window{
 	background-image: linear-gradient(#F9F9F9,#F4F4F4,#E4E4E6,#D7D7D9,#BFC1C3);
 	width: 90%;
-	height: 78vh;
-	margin-left: auto;
-	margin-right: auto;	
+	height: 80%;
 	border-radius: 0px 0px 7px 7px;
 	padding-top: 10px;
 	margin-bottom: 10px;
@@ -163,7 +193,7 @@ a:hover{
 }
 
 .profile-picture{
-	margin-top: 25vh;
+	margin-top: 15vh;
 	margin-left: 60px;
 	width: 350px;
 	height: 350px;
@@ -183,19 +213,8 @@ a:hover{
 	bottom: 20vh;
 }
 
-.about-me-content{
-	margin-left: 50px;
-	margin-right: 50px;
-	font-size: 20px;
-	text-indent: 30px;
-}
 
-.about-me-content-title{
-	margin-left: 50px;
-	font-size: 30px;
-	font-weight: 800;
-	text-indent: 0px;
-}
+
 
 .work-experience{
 	display: block;
@@ -204,14 +223,10 @@ a:hover{
 	background-image: linear-gradient(#F9F9F9,#F4F4F4,#E4E4E6,#D7D7D9,#BFC1C3);
 }
 
-.h3-content{
-	padding-top: 20px;
-	font-size: 40px;
-	font-weight: 800;
+.work-experience .section-header{
+	color: black;
 }
-.h3-content p{
-	margin-left: 30px;
-}
+
 
 .h3-left-content{
 	display: inline-block;
@@ -227,15 +242,19 @@ a:hover{
 	vertical-align: top;
 }
 
+.work-experience .right-titlebar{
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .right-window-black{
 	background-color: #1E1E1E;
 	width: 90%;
-	height: 78vh;
+	height: 74vh;
 	margin-left: auto;
 	margin-right: auto;	
 	border-radius: 0px 0px 7px 7px;
 	padding-top: 10px;
-	margin-bottom: 10px;
 }
 
 .WE-content{
@@ -271,18 +290,25 @@ a:hover{
 .WE-body{
 	margin-top: 20px;
 	margin-left: 30px;
+	font-size:17px;
 }
 
-.FP-header{
-	padding-top: 20px;
-	font-size: 40px;
-	font-weight: 800;
+.WE-body ul li ul{
+	margin-left: 20px;
+}
+
+.favorite-projects .section-header{
 	color: #82AC44;
 }
+
 .FP-body{
 	height: 200px;
-	font-size: 15px;
+	font-size: 17px;
 	text-indent: 30px;
+}
+
+.FP-body a{
+	color: #82AC44;
 }
 
 .FP-header p{
@@ -327,9 +353,9 @@ a:hover{
 	margin-right: auto;
 	vertical-align: top;
 	position: relative;
-	font-size:0;
+	font-size: 17px;
 	margin-left: -4px;
-	border-radius: 0 0 7px 0;
+	border-radius: 0 0 7px 7px;
 }
 
 .FP-window{
@@ -337,11 +363,13 @@ a:hover{
 	margin-left:40px;
 	margin-right: auto;
 	background-color: #171717;
+	border-radius: 0 0 7px 0;
 }
 
 .FP-window .right-window-black .tag-block{
 	width: 100%;
 	height: 50%;
+	margin-top: 5px;
 }
 
 .tag{
@@ -356,14 +384,12 @@ a:hover{
 	border-radius: 7px;
 }
 
-/*.project2 .right-titlebar{
-	float: right;
-	margin-right: 30px;
+.project2 .right-titlebar{
+	margin-left: 25%;
 }
 .project2 .FP-window{
-	float: right;
-	margin-right: 30px;
-}*/
+	margin-left: 25%;
+}
 
 
 /*-------------------------------------------------------------------------------------------------
